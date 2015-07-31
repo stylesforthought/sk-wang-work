@@ -20,7 +20,7 @@
 		background-repeat: no-repeat;
 		background-size: center center;
 		margin: 0 auto;
-		border-bottom: 100% 10px black;
+		border-bottom: 1px solid black;
 	}
 	nav {
 		width: 100%;
@@ -63,6 +63,7 @@
 	}
 	section#two {
 		background-color: white;
+		border-bottom: 1px solid black;
 	}
 	section#two header {
 		font-family: 'Oxygen', sans-serif;
@@ -78,6 +79,23 @@
 		margin: 0 auto;
 		font-family: 'Oxygen', sans-serif;
 	}
+	section#three {
+		background-color: white;
+		border-bottom: 0px solid black;
+		font-family: 'Oxygen', sans-serif;
+	}
+	section#three header {
+		font-size: 30px;
+		font-weight: bold; 
+		padding: 0 0 0 100px;
+		margin: 0;
+	}
+	article#two {
+		text-align: left;
+		max-width: 800px;
+		padding: 0;
+		margin: 0 auto;
+	}
 	</style>
 </head>
 <body>
@@ -86,8 +104,8 @@
 		<ul>
 			<li>SEONG KUAN WANG<li>
 			<li><a href="#About Me">About Me</a></li>
-			<li><a href="#">Resume</a></li>
-			<li><a href="www.stylesforthought.com">My Project</a></li>
+			<li><a href="#Resume">Resume</a></li>
+			<li><a href="https://www.stylesforthought.com" target="_blank">My Project</a></li>
 		</ul>	
 		<p>Copyright &copy 2015 Seong-Kuan Wang. All Rights Rserved.</p>
 	</nav>
@@ -97,10 +115,12 @@
 
 	<section id="two">
 	<header>
+	<a name="About Me"></a>
 	<h1>About Me</h1>
 	</header>
-	<a name="About Me"></a>
+	
 	<article id="one">
+
 	<p>
 	I am a Technology Sr. Analyst at Accenture, the Los Angeles office. During my time at the company, I have worked on various projects in telecommunications and banking, where I learned about home networking, television, and anti money laundering. Along side with my industry learning, I gained experience in developing business requirements, managing product development, and creating mobile applications/websites etc. One of my favorite projects was designing an internet product for the world's largest media corporation. I am passionate about consumer facing products and always seek out opportunities to be part of the product design team.
 	</p>
@@ -108,8 +128,58 @@
 	</p>
 	<p>In my free time, I am very active. I enjoy traveling, learning about different culture and exploring different cuisine. Recently in March, I have traveled around the globe, and I took the above pic at Munich. When I am at home, I like to run on the beach and practice yoga. 
 	</p>
-	<p>For more information about me, please visit my <a href="file:///C:/Users/seong.kuan.wang/Documents/GitHub/sk-wang-work/Personal%20Page.html" target="_blank">resume</a></p>
+	<p>For more information about me, please visit my <a href="#Resume">resume</a></p>
 	</article>
+	</section>
+	
+
+	<section id="three">
+		<header>
+		<a name="Resume"></a>
+		<h1>Resume</h1>
+		</header>
+		<article id="two">
+		<h2>Education</h2>
+		<ul>
+		<li>The University of Texas at Austin <span>2009 - Dec 2013</span></li>
+		<li>B.S. in Chemical Engneering <span>GPA: 3.53/4.00</span></li>
+		</ul>
+
+		<h2>Professional Experience</h2>
+		<h3>Accenture (04/14 - Present) <span>Technology Consulting Sr. Analyst</span></h3>
+		<h4>Client: The US's Largest Mass Media Company</h4>
+		<p>
+			The objective of the role was to define the next Internet product and steer product creation and development. This product is a troubleshooting/self help mobile app that can detect internet issues in home and provide subscribers remediation steps to resolve internet issues.  The product will impact 4-5 million internet subscribers in its first market trial.
+		</p>	
+		<ul>
+			<li>Established self as a product manager that's responsible for product design and definition, driving the project from brainstorming product features to getting acceptance on the proposed product requirements
+			</li>
+			<li>Created user stories and supporting documents to communicate product requirements to various cross-functional teams and obtained their acceptance on the product requirements
+			</li>
+			<li>Analyzed the client’s engineering/developing capabilities and identified corresponding teams to support the product implementation
+			</li>
+			<li>Strategized and prioritized product development and determined the entrance and exit criteria for each development sprint
+			</li>
+		</ul>
+		<h4>Client: Fortune Top 100 TV Provider</h4>
+		<p>
+			The scope of the role was to create a marketing campaign to showcase the client's best business practices and to recruit top engineering talents.
+		</p>
+		<ul>
+			<li>Undertook in-depth competitor analysis and industry landscape assessment to create compelling campaign material</li>
+			<li>Drew key findings, and articulated insights in the forms of captivating taglines and content, showcasing the client in the best light possible</li>
+			<li>Created a professional deck which received positive feedback from internal and external stakeholders on its cohesive branding and rapid completion</li>
+		</ul>
+		<h4>The US'S Third Largest Bank by Assets</h4>
+		<p>
+			The objective of the role was to support the bank's Anti-Money Laundering program deployment, ensuring its compliance to Federal regulations and laws.  The scope of the role was complex and tasks included:
+		</p>
+		<ul>
+			<li>Supported managing the development of a new customer onboarding system, ensuring its alignment to the business requirements</li>
+			<li>Second in commend to validate the accuracy of customer and transaction reviews under an aggressive timeline, ensuring the capture of suspicious monetary activities before FDIC’s audits</li>
+			<li>Supported gathering and summarizing Anti-Money Laundering program status and reported all 20+ projects to C-suite executives</li>
+		</ul>
+		</article>
 	</section>
 </body>
 <footer>
