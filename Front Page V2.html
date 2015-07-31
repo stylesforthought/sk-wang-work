@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <head>
 	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
 	<style type="text/css">
 	body {
 		width: 100%;
+		margin: 0;
 	}
 	section {
 		position: relative;
@@ -18,7 +20,7 @@
 		background-repeat: no-repeat;
 		background-size: center center;
 		margin: 0 auto;
-		font-family: 'Poiret One', cursive;
+		border-bottom: 100% 10px black;
 	}
 	nav {
 		width: 100%;
@@ -27,6 +29,7 @@
 		background: rgba(0,0,0,0.6);
 		height:60px;
 		margin: 0;
+		font-family: 'Poiret One', cursive;
 	}
 	nav ul li{
 		margin:20px 10px 0 0;
@@ -34,9 +37,9 @@
 		display: block;
 		list-style: none;
 		font-size: 20px;
-		vertical-align: baseline;
 		text-decoration: none;
 		color: white;
+		font-weight: bold;
 
 	}
 	nav ul li a{
@@ -47,12 +50,33 @@
 		color: white;
 		text-decoration: none;
 		padding-left: 30px;
+		font-weight: normal;
 	}
 	nav ul li a:hover{
 		color: #333333;
 	}
+	nav p {
+		font-family: 'Oxygen', sans-serif;
+		font-size: 12px;
+		position: absolute; 
+		right: 15px;
+	}
 	section#two {
-		background-color: black;
+		background-color: white;
+	}
+	section#two header {
+		font-family: 'Oxygen', sans-serif;
+		font-size: 30px;
+		font-weight: bold; 
+		padding: 0 0 0 100px;
+		margin: 0;
+	}
+	article#one {
+		text-align: left;
+		max-width: 500px;
+		padding: 0;
+		margin: 0 auto;
+		font-family: 'Oxygen', sans-serif;
 	}
 	</style>
 </head>
@@ -61,13 +85,31 @@
 	<nav>
 		<ul>
 			<li>SEONG KUAN WANG<li>
-			<li><a href="#">About Me</a></li>
+			<li><a href="#About Me">About Me</a></li>
 			<li><a href="#">Resume</a></li>
-			<li><a href="#">My Project</a></li>
+			<li><a href="www.stylesforthought.com">My Project</a></li>
 		</ul>	
+		<p>Copyright &copy 2015 Seong-Kuan Wang. All Rights Rserved.</p>
 	</nav>
 	</section>
+	
+
+
 	<section id="two">
+	<header>
+	<h1>About Me</h1>
+	</header>
+	<a name="About Me"></a>
+	<article id="one">
+	<p>
+	I am a Technology Sr. Analyst at Accenture, the Los Angeles office. During my time at the company, I have worked on various projects in telecommunications and banking, where I learned about home networking, television, and anti money laundering. Along side with my industry learning, I gained experience in developing business requirements, managing product development, and creating mobile applications/websites etc. One of my favorite projects was designing an internet product for the world's largest media corporation. I am passionate about consumer facing products and always seek out opportunities to be part of the product design team.
+	</p>
+	<p>Before Accenture, I received a B.S. in Chemical Engineering from The University of Texas at Austin, and completed a number of engineering internships in Oil & Gas. Through my experience, I've built a strong foundation in problem solving, critical thinking, and independent learning, and I am known for quick acclimation to new environments and delivering quality work under aggressive timelines.
+	</p>
+	<p>In my free time, I am very active. I enjoy traveling, learning about different culture and exploring different cuisine. Recently in March, I have traveled around the globe, and I took the above pic at Munich. When I am at home, I like to run on the beach and practice yoga. 
+	</p>
+	<p>For more information about me, please visit my <a href="file:///C:/Users/seong.kuan.wang/Documents/GitHub/sk-wang-work/Personal%20Page.html" target="_blank">resume</a></p>
+	</article>
 	</section>
 </body>
 <footer>
