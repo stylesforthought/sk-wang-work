@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+	<title>layout</title>
+	<style type="text/css">
+		body {
+			background-color: white;
+			padding: 0 !important;
+			margin: 0 !important;
+		}
+
+		.clearfix:after {
+		   content: " "; /* Older browser do not support empty content */
+		   visibility: hidden;
+		   display: block;
+		   height: 0;
+		   clear: both;
+		}
+		* {
+			/*background-color: rgb(33, 33, 33);*/
+			/*margin: 5px;*/
+			/*color:white;*/
+		}
+
+		header {
+			background-color: grey;
+			padding:20px;
+			margin: 10px 10px;
+		}
+		section#content {
+			width: 79%;
+			background-color: purple;
+			float: left;
+			min-height: 600px;
+			margin-left: 10px;
+		}
+		section#rightRail {
+			width: 19%;
+			background-color: blue;
+			float:right;
+			min-height: 600px;
+			margin-right: 10px;
+		}
+		footer {
+			/*clear:both;*/
+			padding: 20px 5px;
+			background-color:orange;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>My Site</h1>
+	</header>
+
+	<main class="clearfix">
+		
+		<section id="content">
+			<p>Article goes here!!</p>
+		</section>	
+		<section id="rightRail">
+			<p>Ads and stuff go over here</p>
+		</section>	
+	</main>
+
+	<footer>
+		<p>Copyright &copy 2015 Seong Kuan Wang. All Rights Reserved.</p>
+	</footer>
+</body>
