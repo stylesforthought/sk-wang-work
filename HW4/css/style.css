@@ -1,0 +1,172 @@
+/*
+Project Name: Startup Matchmaker
+Client: GA
+Author: Seong Kuan Wang
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: #000;
+  line-height: 1.4;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  background-color: #FFFFFF;
+}
+a {
+  text-decoration: none;
+}
+.strike {
+  text-decoration: line-through;
+}
+.underline {
+  text-decoration: underline;
+}
+
+nav {
+  border-bottom: 2px solid #FAFA0D;
+  background-color:black;
+  padding: 10px 60px;
+}
+nav h1 {
+  text-align: left;
+  font-size: 26px;
+  color: #FAFA0D;
+  float: left;
+}
+nav ul {
+
+}
+nav ul li{
+  font-size: 18px;
+  float: right;
+  color:#FFFFFF;
+  padding-left:15px;
+}
+section#banner {
+
+  background-color: #C1C6C3;
+  padding: 20px 100px;
+}
+section#banner p{
+  text-align: center;
+  font-size: 26px;
+}
+section#createProfile {
+  background:url(http://i.imgur.com/dEVGZfW.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+  padding: 10vh;
+}
+section#createProfile div#match {
+  width: 30%;
+
+  float: right;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 40px 50px;
+}
+section#createProfile div#match h2{
+  margin-bottom: 1vh;
+}
+p.buttonBig {
+  text-align: center;
+  margin-top: 5vh;
+  background-color: #FAFA0D;
+  padding: 1vh 3vh;
+  border-radius: 1vh;
+}
+.buttonBig a {
+  color:black;
+}
+section#clicks {
+
+  padding: 5vh 10vh;
+
+}
+p.button {
+  text-align: center;
+  margin-top: 5vh;
+  background-color: #C1C6C3;
+  padding: 1vh 3vh;
+  border-radius: 1vh;
+}
+.button a {
+  color:black;
+}
+
+section#clicks h2 {
+  margin-bottom: 1vh;
+}
+
+section#clicks div#profile{
+  width:33.3%;
+  border-right: 2px solid #C1C6C3;
+  float:left;
+  padding: 5vh;
+}
+section#clicks div#developer{
+  width:33.3%;
+  border-right: 2px solid #C1C6C3;
+  float: left;
+  padding: 5vh;
+}
+section#clicks div#designer{
+  width:33.3%;
+
+  float: left;
+  padding: 5vh;
+}
+footer {
+  background: black;
+  color:white;
+  padding: 3vh 5vh;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
